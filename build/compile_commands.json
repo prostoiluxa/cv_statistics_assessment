@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build",
+  "command": "/usr/bin/clang++  -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -o CMakeFiles/vision.dir/main.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/main.cpp\"",
+  "file": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/main.cpp",
+  "output": "CMakeFiles/vision.dir/main.cpp.o"
+}
+]
