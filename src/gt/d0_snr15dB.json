@@ -1,0 +1,166 @@
+{
+    "cells": [
+        [
+            {
+                "mean": 44.0,
+                "stddev": 0.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 44.0,
+                "stddev": 1.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 44.0,
+                "stddev": 1.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 44.0,
+                "stddev": 2.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 44.0,
+                "stddev": 2.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            }
+        ],
+        [
+            {
+                "mean": 88.0,
+                "stddev": 0.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 88.0,
+                "stddev": 1.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 88.0,
+                "stddev": 1.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 88.0,
+                "stddev": 2.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 88.0,
+                "stddev": 2.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            }
+        ],
+        [
+            {
+                "mean": 132.0,
+                "stddev": 0.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 132.0,
+                "stddev": 1.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 132.0,
+                "stddev": 1.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 132.0,
+                "stddev": 2.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 132.0,
+                "stddev": 2.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            }
+        ],
+        [
+            {
+                "mean": 176.0,
+                "stddev": 0.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 176.0,
+                "stddev": 1.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 176.0,
+                "stddev": 1.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 176.0,
+                "stddev": 2.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 176.0,
+                "stddev": 2.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            }
+        ],
+        [
+            {
+                "mean": 220.0,
+                "stddev": 0.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 220.0,
+                "stddev": 1.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 220.0,
+                "stddev": 1.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 220.0,
+                "stddev": 2.0,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            },
+            {
+                "mean": 220.0,
+                "stddev": 2.5,
+                "theoretical_kurtosis": 0.0,
+                "theoretical_skewness": 0.0
+            }
+        ]
+    ],
+    "distribution": 0,
+    "snr_db": 15.0
+}

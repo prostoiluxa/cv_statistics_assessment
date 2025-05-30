@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

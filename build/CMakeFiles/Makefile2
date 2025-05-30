@@ -63,11 +63,15 @@ CMAKE_BINARY_DIR = "/Users/ilagorbacev/Documents/Документы — MacBook
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/vision.dir/all
+all: CMakeFiles/assessment.dir/all
+all: CMakeFiles/gen.dir/all
+all: CMakeFiles/eval.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/vision.dir/codegen
+codegen: CMakeFiles/assessment.dir/codegen
+codegen: CMakeFiles/gen.dir/codegen
+codegen: CMakeFiles/eval.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +79,106 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/vision.dir/clean
+clean: CMakeFiles/assessment.dir/clean
+clean: CMakeFiles/gen.dir/clean
+clean: CMakeFiles/eval.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/vision.dir
+# Target rules for target CMakeFiles/assessment.dir
 
 # All Build rule for target.
-CMakeFiles/vision.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=1,2 "Built target vision"
-.PHONY : CMakeFiles/vision.dir/all
+CMakeFiles/assessment.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=1,2,3 "Built target assessment"
+.PHONY : CMakeFiles/assessment.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/vision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/vision.dir/all
+CMakeFiles/assessment.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/assessment.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" 0
-.PHONY : CMakeFiles/vision.dir/rule
+.PHONY : CMakeFiles/assessment.dir/rule
 
 # Convenience name for target.
-vision: CMakeFiles/vision.dir/rule
-.PHONY : vision
+assessment: CMakeFiles/assessment.dir/rule
+.PHONY : assessment
 
 # codegen rule for target.
-CMakeFiles/vision.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=1,2 "Finished codegen for target vision"
-.PHONY : CMakeFiles/vision.dir/codegen
+CMakeFiles/assessment.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=1,2,3 "Finished codegen for target assessment"
+.PHONY : CMakeFiles/assessment.dir/codegen
 
 # clean rule for target.
-CMakeFiles/vision.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/clean
-.PHONY : CMakeFiles/vision.dir/clean
+CMakeFiles/assessment.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/clean
+.PHONY : CMakeFiles/assessment.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gen.dir
+
+# All Build rule for target.
+CMakeFiles/gen.dir/all: CMakeFiles/assessment.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen.dir/build.make CMakeFiles/gen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen.dir/build.make CMakeFiles/gen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=6,7 "Built target gen"
+.PHONY : CMakeFiles/gen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" 0
+.PHONY : CMakeFiles/gen.dir/rule
+
+# Convenience name for target.
+gen: CMakeFiles/gen.dir/rule
+.PHONY : gen
+
+# codegen rule for target.
+CMakeFiles/gen.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen.dir/build.make CMakeFiles/gen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=6,7 "Finished codegen for target gen"
+.PHONY : CMakeFiles/gen.dir/codegen
+
+# clean rule for target.
+CMakeFiles/gen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen.dir/build.make CMakeFiles/gen.dir/clean
+.PHONY : CMakeFiles/gen.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/eval.dir
+
+# All Build rule for target.
+CMakeFiles/eval.dir/all: CMakeFiles/assessment.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=4,5 "Built target eval"
+.PHONY : CMakeFiles/eval.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/eval.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/eval.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" 0
+.PHONY : CMakeFiles/eval.dir/rule
+
+# Convenience name for target.
+eval: CMakeFiles/eval.dir/rule
+.PHONY : eval
+
+# codegen rule for target.
+CMakeFiles/eval.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=4,5 "Finished codegen for target eval"
+.PHONY : CMakeFiles/eval.dir/codegen
+
+# clean rule for target.
+CMakeFiles/eval.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/clean
+.PHONY : CMakeFiles/eval.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

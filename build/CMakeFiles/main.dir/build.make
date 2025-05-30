@@ -72,29 +72,30 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/codegen:
 .PHONY : CMakeFiles/main.dir/codegen
 
-CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.cpp.o: /Users/ilagorbacev/Documents/Документы —\ MacBook\ Air —\ Илья\ (2)/cs/cpp/cv_statistics_assessment/main.cpp
-CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/main.cpp"
+CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/main.cpp.o: /Users/ilagorbacev/Documents/Документы —\ MacBook\ Air —\ Илья\ (2)/cs/cpp/cv_statistics_assessment/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/main.cpp"
 
-CMakeFiles/main.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/main.cpp" > CMakeFiles/main.dir/main.cpp.i
+CMakeFiles/main.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/main.cpp" > CMakeFiles/main.dir/src/main.cpp.i
 
-CMakeFiles/main.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/main.cpp" -o CMakeFiles/main.dir/main.cpp.s
+CMakeFiles/main.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/main.cpp" -o CMakeFiles/main.dir/src/main.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cpp.o"
+"CMakeFiles/main.dir/src/main.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/main.cpp.o
+main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/build.make
+main: libassessment.a
 main: /usr/local/lib/libopencv_gapi.4.11.0.dylib
 main: /usr/local/lib/libopencv_stitching.4.11.0.dylib
 main: /usr/local/lib/libopencv_alphamat.4.11.0.dylib
@@ -131,17 +132,17 @@ main: /usr/local/lib/libopencv_wechat_qrcode.4.11.0.dylib
 main: /usr/local/lib/libopencv_xfeatures2d.4.11.0.dylib
 main: /usr/local/lib/libopencv_xobjdetect.4.11.0.dylib
 main: /usr/local/lib/libopencv_xphoto.4.11.0.dylib
-main: /usr/local/lib/libopencv_shape.4.11.0.dylib
+main: /usr/local/lib/libopencv_phase_unwrapping.4.11.0.dylib
+main: /usr/local/lib/libopencv_optflow.4.11.0.dylib
 main: /usr/local/lib/libopencv_highgui.4.11.0.dylib
 main: /usr/local/lib/libopencv_datasets.4.11.0.dylib
 main: /usr/local/lib/libopencv_plot.4.11.0.dylib
 main: /usr/local/lib/libopencv_text.4.11.0.dylib
+main: /usr/local/lib/libopencv_videoio.4.11.0.dylib
 main: /usr/local/lib/libopencv_ml.4.11.0.dylib
-main: /usr/local/lib/libopencv_phase_unwrapping.4.11.0.dylib
-main: /usr/local/lib/libopencv_optflow.4.11.0.dylib
+main: /usr/local/lib/libopencv_shape.4.11.0.dylib
 main: /usr/local/lib/libopencv_ximgproc.4.11.0.dylib
 main: /usr/local/lib/libopencv_video.4.11.0.dylib
-main: /usr/local/lib/libopencv_videoio.4.11.0.dylib
 main: /usr/local/lib/libopencv_imgcodecs.4.11.0.dylib
 main: /usr/local/lib/libopencv_objdetect.4.11.0.dylib
 main: /usr/local/lib/libopencv_calib3d.4.11.0.dylib

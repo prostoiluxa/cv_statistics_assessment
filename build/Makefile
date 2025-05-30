@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/local/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build/CMakeFiles" "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build//CMakeFiles/progress.marks"
@@ -117,41 +162,139 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named vision
+# Target rules for targets named assessment
 
 # Build rule for target.
-vision: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vision
-.PHONY : vision
+assessment: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assessment
+.PHONY : assessment
 
 # fast build rule for target.
-vision/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/build
-.PHONY : vision/fast
+assessment/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/build
+.PHONY : assessment/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named gen
+
+# Build rule for target.
+gen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gen
+.PHONY : gen
+
+# fast build rule for target.
+gen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen.dir/build.make CMakeFiles/gen.dir/build
+.PHONY : gen/fast
+
+#=============================================================================
+# Target rules for targets named eval
+
+# Build rule for target.
+eval: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eval
+.PHONY : eval
+
+# fast build rule for target.
+eval/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/build
+.PHONY : eval/fast
+
+lib/src/generator.o: lib/src/generator.cpp.o
+.PHONY : lib/src/generator.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/main.cpp.o
-.PHONY : main.cpp.o
+lib/src/generator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/lib/src/generator.cpp.o
+.PHONY : lib/src/generator.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+lib/src/generator.i: lib/src/generator.cpp.i
+.PHONY : lib/src/generator.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/main.cpp.i
-.PHONY : main.cpp.i
+lib/src/generator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/lib/src/generator.cpp.i
+.PHONY : lib/src/generator.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+lib/src/generator.s: lib/src/generator.cpp.s
+.PHONY : lib/src/generator.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/main.cpp.s
-.PHONY : main.cpp.s
+lib/src/generator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/lib/src/generator.cpp.s
+.PHONY : lib/src/generator.cpp.s
+
+lib/src/methods.o: lib/src/methods.cpp.o
+.PHONY : lib/src/methods.o
+
+# target to build an object file
+lib/src/methods.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/lib/src/methods.cpp.o
+.PHONY : lib/src/methods.cpp.o
+
+lib/src/methods.i: lib/src/methods.cpp.i
+.PHONY : lib/src/methods.i
+
+# target to preprocess a source file
+lib/src/methods.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/lib/src/methods.cpp.i
+.PHONY : lib/src/methods.cpp.i
+
+lib/src/methods.s: lib/src/methods.cpp.s
+.PHONY : lib/src/methods.s
+
+# target to generate assembly for a file
+lib/src/methods.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/lib/src/methods.cpp.s
+.PHONY : lib/src/methods.cpp.s
+
+src/evaluate.o: src/evaluate.cpp.o
+.PHONY : src/evaluate.o
+
+# target to build an object file
+src/evaluate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/src/evaluate.cpp.o
+.PHONY : src/evaluate.cpp.o
+
+src/evaluate.i: src/evaluate.cpp.i
+.PHONY : src/evaluate.i
+
+# target to preprocess a source file
+src/evaluate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/src/evaluate.cpp.i
+.PHONY : src/evaluate.cpp.i
+
+src/evaluate.s: src/evaluate.cpp.s
+.PHONY : src/evaluate.s
+
+# target to generate assembly for a file
+src/evaluate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/src/evaluate.cpp.s
+.PHONY : src/evaluate.cpp.s
+
+src/generate.o: src/generate.cpp.o
+.PHONY : src/generate.o
+
+# target to build an object file
+src/generate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen.dir/build.make CMakeFiles/gen.dir/src/generate.cpp.o
+.PHONY : src/generate.cpp.o
+
+src/generate.i: src/generate.cpp.i
+.PHONY : src/generate.i
+
+# target to preprocess a source file
+src/generate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen.dir/build.make CMakeFiles/gen.dir/src/generate.cpp.i
+.PHONY : src/generate.cpp.i
+
+src/generate.s: src/generate.cpp.s
+.PHONY : src/generate.s
+
+# target to generate assembly for a file
+src/generate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gen.dir/build.make CMakeFiles/gen.dir/src/generate.cpp.s
+.PHONY : src/generate.cpp.s
 
 # Help Target
 help:
@@ -160,11 +303,26 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... vision"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... assessment"
+	@echo "... eval"
+	@echo "... gen"
+	@echo "... lib/src/generator.o"
+	@echo "... lib/src/generator.i"
+	@echo "... lib/src/generator.s"
+	@echo "... lib/src/methods.o"
+	@echo "... lib/src/methods.i"
+	@echo "... lib/src/methods.s"
+	@echo "... src/evaluate.o"
+	@echo "... src/evaluate.i"
+	@echo "... src/evaluate.s"
+	@echo "... src/generate.o"
+	@echo "... src/generate.i"
+	@echo "... src/generate.s"
 .PHONY : help
 
 
