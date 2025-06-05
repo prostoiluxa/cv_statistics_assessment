@@ -140,5 +140,5 @@ int main(int argc, char **argv)
     std::string eval_path = argv[2];
     eval_path = "../src/evaluations/" + eval_path;
 
-    evaluateCollage(eval_path, image, createCollageMask());
+    evaluateCollage(image, createCollageMask());
 }
