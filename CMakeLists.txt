@@ -40,7 +40,6 @@ add_executable(eval src/evaluate.cpp)
 target_include_directories(eval PRIVATE lib/include ${OpenCV_INCLUDE_DIRS})
 target_link_libraries(eval PRIVATE assessment ${OpenCV_LIBS} nlohmann_json::nlohmann_json)
 
-# add_executable(${PROJECT_NAME} main.cpp)
-
-# target_include_directories(${PROJECT_NAME} PRIVATE ${OpenCV_INCLUDE_DIRS})
-# target_link_libraries(${PROJECT_NAME} PRIVATE ${OpenCV_LIBS})
+add_executable(ass src/assess.cpp)
+target_include_directories(ass PRIVATE lib/include ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(ass PRIVATE assessment ${OpenCV_LIBS} nlohmann_json::nlohmann_json)

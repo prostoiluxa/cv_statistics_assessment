@@ -1,5 +1,5 @@
 {
     "distribution": 1,
     "seed": 12,
-    "snr_db": 5.0
+    "snr_db": 100.0
 }

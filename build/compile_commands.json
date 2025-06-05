@@ -1,26 +1,32 @@
 [
 {
   "directory": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build",
-  "command": "/usr/bin/clang++  -I\"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/include\" -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /usr/local/include -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -o CMakeFiles/assessment.dir/lib/src/methods.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/src/methods.cpp\"",
+  "command": "/usr/bin/clang++  -I\"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/include\" -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /usr/local/include -g -std=gnu++20 -o CMakeFiles/assessment.dir/lib/src/methods.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/src/methods.cpp\"",
   "file": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/src/methods.cpp",
   "output": "CMakeFiles/assessment.dir/lib/src/methods.cpp.o"
 },
 {
   "directory": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build",
-  "command": "/usr/bin/clang++  -I\"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/include\" -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /usr/local/include -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -o CMakeFiles/assessment.dir/lib/src/generator.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/src/generator.cpp\"",
+  "command": "/usr/bin/clang++  -I\"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/include\" -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /usr/local/include -g -std=gnu++20 -o CMakeFiles/assessment.dir/lib/src/generator.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/src/generator.cpp\"",
   "file": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/src/generator.cpp",
   "output": "CMakeFiles/assessment.dir/lib/src/generator.cpp.o"
 },
 {
   "directory": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build",
-  "command": "/usr/bin/clang++  -I\"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/include\" -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /usr/local/include -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -o CMakeFiles/gen.dir/src/generate.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/generate.cpp\"",
+  "command": "/usr/bin/clang++  -I\"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/include\" -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /usr/local/include -g -std=gnu++20 -o CMakeFiles/gen.dir/src/generate.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/generate.cpp\"",
   "file": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/generate.cpp",
   "output": "CMakeFiles/gen.dir/src/generate.cpp.o"
 },
 {
   "directory": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build",
-  "command": "/usr/bin/clang++  -I\"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/include\" -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /usr/local/include -g -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -o CMakeFiles/eval.dir/src/evaluate.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/evaluate.cpp\"",
+  "command": "/usr/bin/clang++  -I\"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/include\" -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /usr/local/include -g -std=gnu++20 -o CMakeFiles/eval.dir/src/evaluate.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/evaluate.cpp\"",
   "file": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/evaluate.cpp",
   "output": "CMakeFiles/eval.dir/src/evaluate.cpp.o"
+},
+{
+  "directory": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/build",
+  "command": "/usr/bin/clang++  -I\"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/lib/include\" -isystem /usr/local/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /usr/local/include -g -std=gnu++20 -o CMakeFiles/ass.dir/src/assess.cpp.o -c \"/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/assess.cpp\"",
+  "file": "/Users/ilagorbacev/Documents/Документы — MacBook Air — Илья (2)/cs/cpp/cv_statistics_assessment/src/assess.cpp",
+  "output": "CMakeFiles/ass.dir/src/assess.cpp.o"
 }
 ]

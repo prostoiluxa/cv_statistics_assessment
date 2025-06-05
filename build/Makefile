@@ -200,6 +200,19 @@ eval/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/build
 .PHONY : eval/fast
 
+#=============================================================================
+# Target rules for targets named ass
+
+# Build rule for target.
+ass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ass
+.PHONY : ass
+
+# fast build rule for target.
+ass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass.dir/build.make CMakeFiles/ass.dir/build
+.PHONY : ass/fast
+
 lib/src/generator.o: lib/src/generator.cpp.o
 .PHONY : lib/src/generator.o
 
@@ -247,6 +260,30 @@ lib/src/methods.s: lib/src/methods.cpp.s
 lib/src/methods.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assessment.dir/build.make CMakeFiles/assessment.dir/lib/src/methods.cpp.s
 .PHONY : lib/src/methods.cpp.s
+
+src/assess.o: src/assess.cpp.o
+.PHONY : src/assess.o
+
+# target to build an object file
+src/assess.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass.dir/build.make CMakeFiles/ass.dir/src/assess.cpp.o
+.PHONY : src/assess.cpp.o
+
+src/assess.i: src/assess.cpp.i
+.PHONY : src/assess.i
+
+# target to preprocess a source file
+src/assess.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass.dir/build.make CMakeFiles/ass.dir/src/assess.cpp.i
+.PHONY : src/assess.cpp.i
+
+src/assess.s: src/assess.cpp.s
+.PHONY : src/assess.s
+
+# target to generate assembly for a file
+src/assess.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ass.dir/build.make CMakeFiles/ass.dir/src/assess.cpp.s
+.PHONY : src/assess.cpp.s
 
 src/evaluate.o: src/evaluate.cpp.o
 .PHONY : src/evaluate.o
@@ -308,6 +345,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... ass"
 	@echo "... assessment"
 	@echo "... eval"
 	@echo "... gen"
@@ -317,6 +355,9 @@ help:
 	@echo "... lib/src/methods.o"
 	@echo "... lib/src/methods.i"
 	@echo "... lib/src/methods.s"
+	@echo "... src/assess.o"
+	@echo "... src/assess.i"
+	@echo "... src/assess.s"
 	@echo "... src/evaluate.o"
 	@echo "... src/evaluate.i"
 	@echo "... src/evaluate.s"
